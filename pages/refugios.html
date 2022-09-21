@@ -7,84 +7,136 @@
     <link rel="stylesheet" href="../styles/bootstrap.min.css">
     <title>Patitas</title>
 </head>
-<body>
-<header>
-    <a href="../index.html">
-        <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
-        <lord-icon
-                src="https://cdn.lordicon.com/jaghjelc.json"
-                trigger="hover"
-                colors="primary:#121331,secondary:#121331"
-                style="width:200px;height:200px">
-        </lord-icon>
-    </a>
-    <div class="navbar_button">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./quienes_somos.html">Quienes Somos</a></li>
-            <li><a href="./mascotas.html">Mascotas</a></li>
-            <li><a href="#">Refugios</a></li>
-            <li><a href="./contactanos.html">Contactanos</a></li>
-        </ul>
+<body class="background">
+<header class="background">
+    <div class="row text-center">
+        <div class="col">
+            <a href="#">
+                <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                <lord-icon
+                        src="https://cdn.lordicon.com/zagjqhhk.json"
+                        trigger="loop"
+                        delay="2000"
+                        colors="outline:#121331,primary:#ac7088,secondary:#ac7088,tertiary:#472d2d"
+                        style="width:250px;height:250px">
+                </lord-icon>
+            </a>
+        </div>
     </div>
+    <nav class="navbar navbar-expand-lg navbar-light m-5 navbar_button">
+        <div class="container-fluid">
+            <button class="navbar-toggler m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="./aprende.html">Aprende</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="./mascotas.html">Mascotas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="#">Refugios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="./contactanos.html">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>
 <main>
-    <h1>Todos los refugios</h1>
-    <div class="card">
-        <a href="./refugio.html">
-            <img src="../img/perrera.jpg" alt="fotoRefugio" width="300 px">
-            <h2>Refugio de lactantes</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.083278640679!2d-4.460349084298
+    <section>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-4">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <a href="./refugio.html" class="background card_a">
+                            <img src="../img/perrera.jpg" class="card-img-top" alt="news">
+                            <div class="card-body">
+                                <h5 class="card-title card_a">Nombre</h5>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.083278640679!2d-4.460349084298
             719!3d40.18496007762608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4035b57551b6f3%3A0x84be09
             5154d712f6!2sC.%20Falsa%2C%2045908%20Aldea%20en%20Cabo%2C%20Toledo%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2
-            sar!4v1661219044327!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen=""
-                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </a>
-    </div>
-    <div class="card">
-        <a href="./refugio.html">
-            <img src="../img/perrera.jpg" alt="fotoRefugio" width="300 px">
-            <h2>Nombre</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.083278640679!2d-4.460349084298
+            sar!4v1661219044327!5m2!1ses-419!2sar" style="border:0; width: 100%" allowfullscreen=""
+                                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <a href="./refugio.html" class="background card_a">
+                            <img src="../img/perrera.jpg" class="card-img-top" alt="news">
+                            <div class="card-body">
+                                <h5 class="card-title card_a">Nombre</h5>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.083278640679!2d-4.460349084298
             719!3d40.18496007762608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4035b57551b6f3%3A0x84be09
             5154d712f6!2sC.%20Falsa%2C%2045908%20Aldea%20en%20Cabo%2C%20Toledo%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2
-            sar!4v1661219044327!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen=""
-                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </a>
-    </div>
-    <div class="card">
-        <a href="./refugio.html">
-            <img src="../img/perrera.jpg" alt="fotoRefugio" width="300 px">
-            <h2>Nombre</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.083278640679!2d-4.460349084298
+            sar!4v1661219044327!5m2!1ses-419!2sar" style="border:0; width: 100%" allowfullscreen=""
+                                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <a href="./refugio.html" class="background card_a">
+                            <img src="../img/perrera.jpg" class="card-img-top" alt="news">
+                            <div class="card-body">
+                                <h5 class="card-title card_a">Nombre</h5>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.083278640679!2d-4.460349084298
             719!3d40.18496007762608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4035b57551b6f3%3A0x84be09
             5154d712f6!2sC.%20Falsa%2C%2045908%20Aldea%20en%20Cabo%2C%20Toledo%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2
-            sar!4v1661219044327!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen=""
-                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </a>
-    </div>
-    <div class="card">
-        <a href="./refugio.html">
-            <img src="../img/perrera.jpg" alt="fotoRefugio" width="300 px">
-            <h2>Nombre</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.083278640679!2d-4.460349084298
+            sar!4v1661219044327!5m2!1ses-419!2sar" style="border:0; width: 100%" allowfullscreen=""
+                                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <a href="./refugio.html" class="background card_a">
+                            <img src="../img/perrera.jpg" class="card-img-top" alt="news">
+                            <div class="card-body">
+                                <h5 class="card-title card_a">Nombre</h5>
+                                <iframe class="card-img-bottom" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.083278640679!2d-4.460349084298
             719!3d40.18496007762608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4035b57551b6f3%3A0x84be09
             5154d712f6!2sC.%20Falsa%2C%2045908%20Aldea%20en%20Cabo%2C%20Toledo%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2
-            sar!4v1661219044327!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen=""
-                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </a>
-    </div>
+            sar!4v1661219044327!5m2!1ses-419!2sar" style="border:0; width: 100%" allowfullscreen=""
+                                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 <footer>
-    <ul>
-        <li><a class="footer_a" href="#">Instagram</a></li>
-        <li><a class="footer_a" href="#">Facebook</a></li>
-        <li><a class="footer_a" href="#">Email</a></li>
-    </ul>
+    <div class="card-footer text-center footer mt-5">
+        <ul class="m-5">
+            <li class="mx-2">
+                <a class="footer-a" href="#">Instagram</a>
+            </li>
+            <li class="mx-2">
+                <a class="footer-a" href="#">Facebook</a>
+            </li>
+            <li class="mx-2">
+                <a class="footer-a" href="#">Email</a>
+            </li>
+        </ul>
+    </div>
 </footer>
 <script src="../js/bootstrap.bundle.min.js"></script>
 </body>

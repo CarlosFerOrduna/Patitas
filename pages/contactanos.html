@@ -7,57 +7,98 @@
     <link rel="stylesheet" href="../styles/bootstrap.min.css">
     <title>Patitas</title>
 </head>
-<body>
-<header>
-    <a href="../index.html">
-        <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
-        <lord-icon
-                src="https://cdn.lordicon.com/jaghjelc.json"
-                trigger="hover"
-                colors="primary:#121331,secondary:#121331"
-                style="width:200px;height:200px">
-        </lord-icon>
-    </a>
-    <div class="navbar_button">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../pages/quienes_somos.html">Quienes Somos</a></li>
-            <li><a href="../pages/mascotas.html">Mascotas</a></li>
-            <li><a href="../pages/refugios.html">Refugios</a></li>
-            <li><a href="#">Contactanos</a></li>
-        </ul>
+<body class="background">
+<header class="background">
+    <div class="row text-center">
+        <div class="col">
+            <a href="#">
+                <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                <lord-icon
+                        src="https://cdn.lordicon.com/zagjqhhk.json"
+                        trigger="loop"
+                        delay="2000"
+                        colors="outline:#121331,primary:#ac7088,secondary:#ac7088,tertiary:#472d2d"
+                        style="width:250px;height:250px">
+                </lord-icon>
+            </a>
+        </div>
     </div>
+    <nav class="navbar navbar-expand-lg navbar-light m-5 navbar_button">
+        <div class="container-fluid">
+            <button class="navbar-toggler m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="./aprende.html">Aprende</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="./mascotas.html">Mascotas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="./refugios.html">Refugios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="#">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>
 <main>
-    <div class="detalle">
-        <div class="detalle_img">
-            <h1>Form de contacto</h1>
-        </div>
-        <div class="detalle_form">
-            <form action="" method="post">
-                <label for="nombre">Ingrese su nombre:
-                    <input type="text" name="nombre" id="nombre">
-                </label>
-                <label for="email">Ingrese su email:
-                    <input type="text" name="email" id="email">
-                </label>
-                <label for="asunto">Asunto:
-                    <input type="text" name="asunto" id="asunto">
-                </label>
-                <label for="cuerpo">Cuerpo del email:
-                    <textarea name="cuerpo" id="cuerpo" cols="30" rows="10"></textarea>
-                </label>
-                <input type="submit" value="Enviar">
+    <section>
+        <div class="row m-5 justify-content-center detalle_form">
+            <form class="row mx-5 g-3">
+                <div class="col-md-6 my-3">
+                    <label for="firstName" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="firstName">
+                </div>
+                <div class="col-md-6 my-3">
+                    <label for="lastName" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="lastName">
+                </div>
+                <div class="col-12 my-3">
+                    <label for="inputAddress" class="form-label">Direccion</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-md-6 my-3">
+                    <label for="inputCity" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-6 my-3">
+                    <label for="inputState" class="form-label">Provincia</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-12 my-3">
+                    <button type="submit" class="col-12 p-3 my-2">Sign in</button>
+                </div>
             </form>
         </div>
-    </div>
+    </section>
 </main>
 <footer>
-    <ul>
-        <li><a class="footer_a" href="#">Instagram</a></li>
-        <li><a class="footer_a" href="#">Facebook</a></li>
-        <li><a class="footer_a" href="#">Email</a></li>
-    </ul>
+    <div class="card-footer text-center footer mt-5">
+        <ul class="m-5">
+            <li class="mx-2">
+                <a class="footer-a" href="#">Instagram</a>
+            </li>
+            <li class="mx-2">
+                <a class="footer-a" href="#">Facebook</a>
+            </li>
+            <li class="mx-2">
+                <a class="footer-a" href="#">Email</a>
+            </li>
+        </ul>
+    </div>
 </footer>
 <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
