@@ -52,46 +52,56 @@
     </nav>
 </header>
 <main>
-    <div class="detalle">
-        <div class="detalle_img">
-            <img src="../img/perro1.jpg" alt="perro" width="600 px">
-            <h2>Nombre mascotas</h2>
-            <p>Descripcion de la mascota, <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at, autem consectetur delectus deleniti dolorum ducimus eaque, enim est, excepturi exercitationem libero natus neque numquam odit praesentium quam ratione repellat.</span><span>Adipisci aliquid asperiores consequuntur dignissimos eaque earum exercitationem molestiae numquam, praesentium quae recusandae, reiciendis sed? Accusantium, consequuntur earum excepturi iste recusandae repellat tenetur! Amet beatae cum dolorum ducimus et ut.</span>
-            </p>
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 detalle_img background">
+                    <img src="../img/perro1.jpg" alt="perro">
+                    <h2 class="detalle_descripcion m-3">Nombre mascotas</h2>
+                    <p>Descripcion de la mascota, Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at, autem
+                        consectetur delectus deleniti dolorum ducimus eaque, enim est, excepturi exercitationem libero
+                        natus
+                        neque numquam odit praesentium quam ratione repellat. Adipisci aliquid asperiores consequuntur
+                        dignissimos eaque earum exercitationem molestiae numquam, praesentium quae recusandae,
+                        reiciendis
+                        sed? Accusantium, consequuntur earum excepturi iste recusandae repellat tenetur! Amet beatae cum
+                        dolorum ducimus et ut.
+                    </p>
+                </div>
+                <div class="col-6 detalle_form">
+                    <form action="#" class="row g-3">
+                        <div class="col-12">
+                            <label for="firstName" class="form-label">Primer Nombre</label>
+                            <input type="text" class="form-control" name="firstName" id="firstName">
+                        </div>
+                        <div class="col-12">
+                            <label for="lastName" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" name="lastName" id="lastName">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label for="age" class="form-label">Edad</label>
+                            <input type="text" class="form-control" name="age" id="age">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label for="phone" class="form-label">Telefono</label>
+                            <input type="text" class="form-control" name="phone" id="phone">
+                        </div>
+                        <div class="col-12">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="text" class="form-control" name="email" id="email">
+                        </div>
+                        <div class="col-12">
+                            <label for="address" class="form-label">Direccion</label>
+                            <input type="text" class="form-control" name="address" id="address">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="col-12 p-3 my-2">Quiere a este amigo</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="detalle_form">
-            <form action="#">
-                <label for="primerNombre">Primer Nombre
-                    <input type="text" name="primerNombre" id="primerNombre" required>
-                </label>
-                <label for="segundoNombre">Segundo Nombre
-                    <input type="text" name="segundoNombre" id="segundoNombre">
-                </label>
-                <label for="primerApellido">Primer Apellido
-                    <input type="text" name="primerApellido" id="primerApellido">
-                </label>
-                <label for="segundoApellido">Segundo Apellido
-                    <input type="text" name="segundoApellido" id="segundoApellido">
-                </label>
-                <label for="edad">Edad
-                    <input type="number" name="edad" id="edad">
-                </label>
-                <label for="telefono">Telefono
-                    <input type="number" name="telefono" id="telefono">
-                </label>
-                <label for="email">Email
-                    <input type="email" name="email" id="email">
-                </label>
-                <label for="direccion">Direccion
-                    <input type="text" name="direccion" id="direccion">
-                </label>
-                <label for="descripcion">Denos una breve descripcion sobre usted
-                    <textarea name="descripcion" id="descripcion"></textarea>
-                </label>
-                <input type="submit" value="Quiero este nuevo amigo">
-            </form>
-        </div>
-    </div>
+    </section>
 </main>
 <footer>
     <div class="card-footer text-center footer mt-5">
