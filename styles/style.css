@@ -3,17 +3,18 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .background {
-    background-color: #F5E8C7;
+    background-color: #F5E8C7; /*Color backgroud general*/
 }
 
 .color {
-    color: #472D2D;
+    color: #472D2D;/*Color tipografia general*/
 }
 
-.navbar_button {
+.navbar_button {/*Contenido navbar general*/
     background-color: #AC7088;
     border-radius: 10px;
     color: #ECCCB2;
@@ -47,7 +48,7 @@ ul li {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.detalle_descripcion{
+.detalle_descripcion {
     color: #472D2D;
     text-align: center;
 }
