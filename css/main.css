@@ -36,11 +36,17 @@ ul li {
 
 .card_a {
   text-decoration: none;
-  color: #472D2D;
-  text-align: center; }
+  color: #ECCCB2;
+  background-color: #AC7088;
+  text-align: center;
+  border-radius: 5px; }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.card_img:hover {
+  transition: 0.3s;
+  transform: scale(1.05); }
 
 .detalle_descripcion {
   color: #472D2D;
