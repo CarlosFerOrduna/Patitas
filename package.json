@@ -1,0 +1,23 @@
+{
+  "name": "patitas",
+  "version": "1.0.0",
+  "description": "proyecto coder/red social refugios de mascotas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosFerOrduna/Patitas.git"
+  },
+  "author": "Carlos Fernando Orduna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosFerOrduna/Patitas/issues"
+  },
+  "homepage": "https://github.com/CarlosFerOrduna/Patitas#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,3 +1,4 @@
+/*noinspection CssUnknownTarget*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
@@ -7,14 +8,14 @@
 }
 
 .background {
-    background-color: #F5E8C7; /*Color backgroud general*/
+    background-color: #F5E8C7; /*Color background general*/
 }
 
 .color {
-    color: #472D2D;/*Color tipografia general*/
+    color: #472D2D; /*Color tipografía general*/
 }
 
-.navbar_button {/*Contenido navbar general*/
+.navbar_button { /*Contenido navbar general*/
     background-color: #AC7088;
     border-radius: 10px;
     color: #ECCCB2;
