@@ -1,0 +1,11 @@
+@import "variable";
+
+.footer li a {
+  text-decoration: none;
+  color: $color-secundario;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+}

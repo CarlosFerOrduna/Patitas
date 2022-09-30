@@ -1,0 +1,38 @@
+@import "variable";
+
+.detalle_descripcion {
+  color: $color-terciario;
+  text-align: center;
+}
+
+.detalle_img img {
+  width: 80%;
+  border-radius: 0.4rem;
+}
+
+.detalle_form form input, .detalle_form form textarea {
+  border-radius: 4px;
+  background-color: $color-secundario;
+  border-color: $color-terciario;
+}
+
+.detalle_form form input:focus, .detalle_form form textarea:focus {
+  background-color: $color-terciario;
+  color: $color-primario;
+}
+
+.detalle_form button {
+  width: 100%;
+  background-color: $color-terciario;
+  color: $color-primario;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.detalle_form button:hover {
+  background-color: $color-secundario;
+  color: $color-terciario;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.6s;
+}

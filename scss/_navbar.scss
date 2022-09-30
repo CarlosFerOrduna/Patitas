@@ -1,0 +1,13 @@
+@import "variable";
+
+.navbar_button {
+  background-color: $color-secundario;
+  border-radius: 10px;
+}
+
+.navbar_button ul :hover {
+  color: $color-terciario;
+  border-radius: 5px;
+  background-color: $color-primario;
+  transition: 0.12s;
+}
