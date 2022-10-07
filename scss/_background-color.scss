@@ -1,10 +1,9 @@
 @import "variable";
 
 body {
-  background-color: $color-primario;
+  background-color: map-get($colors, cremita);
 
   header {
-    background-color: $color-primario;
-
+    background-color: map-get($colors, cremita);
   }
 }

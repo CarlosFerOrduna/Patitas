@@ -1,11 +1,15 @@
 @import "variable";
 
-.footer li a {
-  text-decoration: none;
-  color: $color-secundario;
-}
+.footer {
+  ul {
+    li {
+      display: inline-block;
+      list-style-type: $decoration-none;
 
-ul li {
-  display: inline-block;
-  list-style-type: none;
+      a {
+        text-decoration: $decoration-none;
+        color: map-get($colors, rosita);
+      }
+    }
+  }
 }

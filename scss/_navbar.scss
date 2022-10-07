@@ -1,13 +1,21 @@
 @import "variable";
 
 .navbar_button {
-  background-color: $color-secundario;
-  border-radius: 10px;
-}
+  background-color: map-get($colors, rosita);
+  border-radius: map-get($bordes-redondos, grande);
 
-.navbar_button ul :hover {
-  color: $color-terciario;
-  border-radius: 5px;
-  background-color: $color-primario;
-  transition: 0.12s;
+  div {
+    div {
+      ul {
+        li {
+          &:hover {
+            color: map-get($colors, marron);
+            border-radius: map-get($bordes-redondos, mediano);
+            background-color: map-get($colors, cremita);
+            transition: 0.12s;
+          }
+        }
+      }
+    }
+  }
 }

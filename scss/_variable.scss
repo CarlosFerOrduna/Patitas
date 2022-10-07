@@ -1,5 +1,42 @@
-$color-primario: #F5E8C7;
-$color-secundario: #AC7088;
-$color-terciario: #472D2D;
+$color-cremita: #F5E8C7;
+$color-rosita: #AC7088;
+$color-marron: #472D2D;
+
+$colors: (
+        cremita:$color-cremita,
+        rosita: $color-rosita,
+        marron: $color-marron
+);
+
+$card-quieta: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+$card-volando: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+$sombras: (
+        card-quieta: $card-quieta,
+        card-volando: $card-volando
+);
+
+$center: center;
+$start: start;
+$end: end;
+
+$texts-align: (
+        center : $center,
+        start : $start,
+        end : $end,
+);
+
+$borde-radius-peque: 4px;
+$borde-radius-mediano: 5px;
+$borde-radius-grande: 10px;
+
+$bordes-redondos: (
+        peque:$borde-radius-peque,
+        mediano:$borde-radius-mediano,
+        grande: $borde-radius-grande
+);
 
 $tipografia-general: 'Roboto', sans-serif;
+$decoration-none: none;
+$transition: 0.3s;
+$transform: scale(1.05);
