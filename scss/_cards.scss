@@ -1,16 +1,11 @@
 @import "variable";
+@import "mixins";
 
 .card {
-  box-shadow: map-get($sombras, card-quieta);
-  transition: $transition;
-  border-radius: map-get($bordes-redondos, mediano);
+  @include card();
 
   .card__a {
-    text-decoration: $decoration-none;
-    color: map-get($colors, cremita);
-    background-color: map-get($colors, rosita);
-    text-align: map-get($texts-align, start);
-    border-radius: map-get($bordes-redondos, mediano);
+    @include card-a();
 
     .card-title {
       text-decoration: $decoration-none;
@@ -22,8 +17,6 @@
   }
 
   &:hover {
-    transition: $transition;
-    transform: $transform;
-    box-shadow: map-get($sombras, card-volando);
+    @include card-hover();
   }
 }

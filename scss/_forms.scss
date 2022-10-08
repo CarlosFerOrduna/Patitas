@@ -20,12 +20,12 @@
       @include detalle-form();
 
       &:focus {
-        @include detalle-form-button();
+        @include detalle-form-hover();
       }
     }
 
     button {
-      @include detalle-form-hover();
+      @include detalle-form-button();
 
       &:hover {
         @include detalle-form-button-hover();

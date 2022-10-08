@@ -28,3 +28,29 @@
   transition: 0.6s;
 }
 
+@mixin card($border-radius: map-get($bordes-redondos, mediano)) {
+  box-shadow: map-get($sombras, card-quieta);
+  transition: $transition;
+  border-radius: $border-radius;
+}
+
+@mixin card-a($background-color: map-get($colors, rosita), $color: map-get($colors, cremita)) {
+  text-decoration: $decoration-none;
+  color: $color;
+  background-color: $background-color;
+  text-align: map-get($texts-align, start);
+  border-radius: map-get($bordes-redondos, mediano);
+}
+
+@mixin card-hover($sombra: map-get($sombras, card-volando)) {
+  transition: $transition;
+  transform: $transform;
+  box-shadow: $sombra;
+}
+
+@mixin navbar(){
+  color: map-get($colors, marron);
+  border-radius: map-get($bordes-redondos, mediano);
+  background-color: map-get($colors, cremita);
+  transition: 0.12s;
+}
