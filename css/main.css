@@ -33,7 +33,9 @@ body {
     .card .card__a .card-title {
       text-decoration: none; }
     .card .card__a .card-text {
-      text-decoration: none; }
+      text-decoration: none;
+      max-height: 10rem;
+      min-height: 10rem; }
   .card:hover {
     transition: 0.3s;
     transform: scale(1.05);
