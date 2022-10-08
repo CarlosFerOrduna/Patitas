@@ -1,20 +1,23 @@
 @import "variable";
 
+@mixin background-color($background-color: map-get($colors, cremita)) {
+  background-color: $background-color;
+}
 
 @mixin detalle-form($background-color: map-get($colors, rosita), $border-color: map-get($colors, marron)) {
+  @include background-color($background-color);
   border-radius: map-get($bordes-redondos, peque);
-  background-color: $background-color;
   border-color: $border-color;
 }
 
 @mixin detalle-form-hover($background-color: map-get($colors, marron), $color: map-get($colors, cremita)) {
-  background-color: $background-color;
+  @include background-color($background-color);
   color: $color;
 }
 
 @mixin detalle-form-button($background-color: map-get($colors, marron), $color: map-get($colors, cremita)) {
+  @include background-color($background-color);
   width: 100%;
-  background-color: $background-color;
   color: $color;
   border: $decoration-none;
   border-radius: map-get($bordes-redondos, peque);
@@ -22,7 +25,7 @@
 }
 
 @mixin detalle-form-button-hover($background-color: map-get($colors, rosita), $color: map-get($colors, marron)) {
-  background-color: $background-color;
+  @include background-color($background-color);
   color: $color;
   box-shadow: map-get($sombras, card-quieta);
   transition: 0.6s;
@@ -35,9 +38,9 @@
 }
 
 @mixin card-a($background-color: map-get($colors, rosita), $color: map-get($colors, cremita)) {
+  @include background-color($background-color);
   text-decoration: $decoration-none;
   color: $color;
-  background-color: $background-color;
   text-align: map-get($texts-align, start);
   border-radius: map-get($bordes-redondos, mediano);
 }
@@ -48,9 +51,9 @@
   box-shadow: $sombra;
 }
 
-@mixin navbar(){
-  color: map-get($colors, marron);
+@mixin navbar-hover($background-color: map-get($colors, cremita), $color: map-get($colors, marron)) {
+  @include background-color($background-color);
+  color: $color;
   border-radius: map-get($bordes-redondos, mediano);
-  background-color: map-get($colors, cremita);
   transition: 0.12s;
 }

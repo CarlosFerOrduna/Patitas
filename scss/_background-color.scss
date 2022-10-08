@@ -1,9 +1,10 @@
 @import "variable";
+@import "mixins";
 
 body {
-  background-color: map-get($colors, cremita);
+  @include background-color();
 
   header {
-    background-color: map-get($colors, cremita);
+    @include background-color();
   }
 }

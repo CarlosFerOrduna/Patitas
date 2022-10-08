@@ -1,7 +1,8 @@
 @import "variable";
+@import "mixins";
 
 .navbar_button {
-  background-color: map-get($colors, rosita);
+  @include background-color(map-get($colors, rosita));
   border-radius: map-get($bordes-redondos, grande);
 
   div {
@@ -9,10 +10,7 @@
       ul {
         li {
           &:hover {
-            color: map-get($colors, marron);
-            border-radius: map-get($bordes-redondos, mediano);
-            background-color: map-get($colors, cremita);
-            transition: 0.12s;
+            @include navbar-hover();
           }
         }
       }
