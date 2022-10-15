@@ -48,6 +48,9 @@ body {
   width: 80%;
   border-radius: 0.4rem; }
 
+.detalle_form form .form-label {
+  color: #F5E8C7; }
+
 .detalle_form form input {
   background-color: #AC7088;
   border-radius: 4px;
@@ -60,6 +63,8 @@ body {
   background-color: #AC7088;
   border-radius: 4px;
   border-color: #472D2D; }
+  .detalle_form form textarea .form-label {
+    color: #F5E8C7; }
   .detalle_form form textarea:focus {
     background-color: #472D2D;
     color: #F5E8C7; }
