@@ -34,7 +34,7 @@
 @mixin card($border-radius: map-get($bordes-redondos, mediano)) {
   box-shadow: map-get($sombras, card-quieta);
   transition: $transition;
-  border: none;
+  border: $decoration-none;
   border-radius: $border-radius;
 }
 
