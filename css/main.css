@@ -1,5 +1,6 @@
 /*noinspection CssUnknownTarget*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url(animate.css);
 body {
   background-color: #F5E8C7; }
   body header {
