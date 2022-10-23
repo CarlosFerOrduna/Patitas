@@ -9,6 +9,10 @@
       a {
         text-decoration: $decoration-none;
         color: map-get($colors, rosita);
+
+        .iconify {
+          align-items: center;
+        }
       }
     }
   }
