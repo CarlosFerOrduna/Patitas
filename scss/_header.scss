@@ -1,0 +1,62 @@
+@import "variable";
+@import "mixins";
+
+.header_index {
+  @include header('../assets/perro-paseando.jpg');
+
+  .header-title {
+    @include header-text(map-get($colors, cremita), 2rem);
+  }
+
+  .header-text {
+    @include header-text(map-get($colors, cremita), 1.6rem);
+  }
+}
+
+.header_aprende {
+  @include header('../assets/perro-aprende.jpg');
+
+  .header-title {
+    @include header-text(map-get($colors, cremita), 2rem);
+  }
+
+  .header-text {
+    @include header-text(map-get($colors, cremita), 1.6rem);
+  }
+}
+
+.header_contacto {
+  @include header('../assets/perro-rescata.jpg');
+
+  .header-title {
+    @include header-text(map-get($colors, cremita), 2rem);
+  }
+
+  .header-text {
+    @include header-text(map-get($colors, cremita), 1.6rem);
+  }
+}
+
+.header_refugio {
+  @include header('../assets/perro-casa.jpg');
+
+  .header-title {
+    @include header-text(map-get($colors, cremita), 2rem);
+  }
+
+  .header-text {
+    @include header-text(map-get($colors, cremita), 1.6rem);
+  }
+}
+
+.header_mascota {
+  @include header('../assets/perro-grupo.jpg');
+
+  .header-title {
+    @include header-text(map-get($colors, cremita), 2rem);
+  }
+
+  .header-text {
+    @include header-text(map-get($colors, cremita), 1.6rem);
+  }
+}

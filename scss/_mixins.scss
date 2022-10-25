@@ -58,3 +58,24 @@
   border-radius: map-get($bordes-redondos, mediano);
   transition: 0.12s;
 }
+
+@mixin header($background-imagen) {
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+                  to bottom,
+                  rgba(0, 0, 0, 0) 60%,
+                  rgba(0, 0, 0, 0.8) 100%),
+  url($background-imagen);
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin header-text($color: map-get($colors, cremita), $font-size: 2rem) {
+  margin: 4rem;
+  font-size: $font-size;
+  color: $color;
+  text-shadow: 0.5px 0.5px 5px #472D2D;
+}

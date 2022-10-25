@@ -11,125 +11,160 @@
     <title>Mascota: Manuela</title>
 </head>
 <body>
-<!--start header-->
-<header>
-    <!--start icon-->
-    <div class="container">
-        <div class="row text-center">
-            <div class="col">
-                <a href="../../index.html">
-                    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
-                    <lord-icon
-                            src="https://cdn.lordicon.com/zagjqhhk.json"
-                            trigger="loop"
-                            delay="2000"
-                            colors="outline:#121331,primary:#ac7088,secondary:#ac7088,tertiary:#472d2d"
-                            style="width:250px;height:250px">
-                    </lord-icon>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!--end icon-->
-    <!--start navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light m-5 mt-0 mt-0 navbar_button">
-        <div class="container-fluid">
-            <button class="navbar-toggler m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link m-3" href="../../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link m-3" href="../aprende.html">Aprende</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link m-3" href="../mascotas.html">Mascotas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link m-3" href="../refugios.html">Refugios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link m-3" href="../contactanos.html">Contactanos</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--end navbar-->
-</header>
-<!--end header-->
-<!--start main-->
-<main>
-    <section>
-        <div class="container">
-            <div class="row justify-content-center">
-                <!--start img and description-->
-                <div class="col-md-12 col-lg-6 detalle_img">
-                    <img src="../../assets/una_patita_amiga/manuela.jpg" alt="perro">
-                    <h2 class="detalle_description m-3">Manuela</h2>
-                    <p>Manuela hace un año y medio que espera una familia.
-                        Esta flaquita loca tiene 3 años, se lleva perfecto con perros y gatos.</p>
+<div class="container-xxl shadow p-0">
+    <!--start header-->
+    <header>
+        <!--start navbar-->
+        <div class="header_mascota container-fluid">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-light navbar_button px-3">
+                        <button class="navbar-toggler m-3" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!--start icon-->
+                        <div class="navbar-brand">
+                            <a href="#">
+                                <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                                <lord-icon
+                                        src="https://cdn.lordicon.com/zagjqhhk.json"
+                                        trigger="loop"
+                                        delay="2000"
+                                        colors="outline:#121331,primary:#ac7088,secondary:#ac7088,tertiary:#472d2d"
+                                        style="width:100px;height:100px">
+                                </lord-icon>
+                            </a>
+                        </div>
+                        <!--end icon-->
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link m-3" href="../../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-3" href="../aprende.html">Aprende</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-3" href="../mascotas.html">Mascotas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-3" href="../refugios.html">Refugios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-3" href="../contactanos.html">Contactanos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-                <!--end img and description-->
-                <!--start form-->
-                <div class="col-md-12 col-lg-6 detalle_form">
-                    <form action="#" class="row g-3">
-                        <div class="col-12 my-3 form-floating">
-                            <input type="text" class="form-control" name="firstName" id="firstName" required>
-                            <label for="firstName" class="form-label">Primer Nombre</label>
-                        </div>
-                        <div class="col-12 my-3 form-floating">
-                            <input type="text" class="form-control" name="lastName" id="lastName" required>
-                            <label for="lastName" class="form-label">Apellido</label>
-                        </div>
-                        <div class="col-lg-6 col-md-12 form-floating">
-                            <input type="text" class="form-control" name="age" id="age" required>
-                            <label for="age" class="form-label">Edad</label>
-                        </div>
-                        <div class="col-lg-6 col-md-12 form-floating">
-                            <input type="text" class="form-control" name="phone" id="phone" required>
-                            <label for="phone" class="form-label">Teléfono</label>
-                        </div>
-                        <div class="col-12 form-floating">
-                            <input type="text" class="form-control" name="email" id="email" required>
-                            <label for="email" class="form-label">Email</label>
-                        </div>
-                        <div class="col-12 form-floating">
-                            <input type="text" class="form-control" name="address" id="address" required>
-                            <label for="address" class="form-label">Dirección</label>
-                        </div>
-                        <div class="col-12">
-                            <button type="submit" class="col-12 p-3 my-2">Quiero a este amigo</button>
-                        </div>
-                    </form>
+                <div class="col-12">
+                    <h1 class="header-title">Adopta:</h1>
+                    <p class="header-text">La adopción es la solución</p>
                 </div>
-                <!--end form-->
             </div>
         </div>
-    </section>
-</main>
-<!--end main-->
-<!--start footer-->
-<footer>
-    <div class="card-footer text-center footer mt-5">
-        <ul class="m-5">
-            <li class="mx-2">
-                <a class="footer-a" target="_blank" href="https://www.instagram.com/">Instagram</a>
-            </li>
-            <li class="mx-2">
-                <a class="footer-a" target="_blank" href="https://www.facebook.com/">Facebook</a>
-            </li>
-            <li class="mx-2">
-                <a class="footer-a" target="_blank" href="https://mail.google.com/">Email</a>
-            </li>
-        </ul>
-    </div>
-</footer>
-<!--end footer-->
+        <!--end navbar-->
+    </header>
+    <!--end header-->
+    <!--start main-->
+    <main>
+        <section>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!--start description-->
+                    <div class="detalle_description m-3 col-12">
+                        <h2 class="detalle_description m-3">Manuela</h2>
+                        <p>Manuela hace un año y medio que espera una familia.
+                            Esta flaquita loca tiene 3 años, se lleva perfecto con perros y gatos.</p>
+                    </div>
+                    <!--end description-->
+                    <!--start img-->
+                    <div class="col-md-12 col-lg-6 detalle_img text-center">
+                        <img src="../../assets/una_patita_amiga/manuela.jpg" alt="perro">
+                    </div>
+                    <!--end img-->
+                    <!--start form-->
+                    <div class="col-md-12 col-lg-6 detalle_form mt-3">
+                        <form action="#" class="row g-3">
+                            <div class="col-12 my-3 form-floating">
+                                <input type="text" class="form-control" name="firstName" id="firstName" required>
+                                <label for="firstName" class="form-label">Primer Nombre</label>
+                            </div>
+                            <div class="col-12 my-3 form-floating">
+                                <input type="text" class="form-control" name="lastName" id="lastName" required>
+                                <label for="lastName" class="form-label">Apellido</label>
+                            </div>
+                            <div class="col-lg-6 col-md-12 form-floating">
+                                <input type="text" class="form-control" name="age" id="age" required>
+                                <label for="age" class="form-label">Edad</label>
+                            </div>
+                            <div class="col-lg-6 col-md-12 form-floating">
+                                <input type="text" class="form-control" name="phone" id="phone" required>
+                                <label for="phone" class="form-label">Teléfono</label>
+                            </div>
+                            <div class="col-12 form-floating">
+                                <input type="text" class="form-control" name="email" id="email" required>
+                                <label for="email" class="form-label">Email</label>
+                            </div>
+                            <div class="col-12 form-floating">
+                                <input type="text" class="form-control" name="address" id="address" required>
+                                <label for="address" class="form-label">Dirección</label>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="col-12 p-3 my-2">Quiero a este amigo</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!--end form-->
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--end main-->
+    <!--start footer-->
+    <footer>
+        <div class="card-footer text-center footer mt-5">
+            <ul class="mt-5">
+                <li class="mx-2">
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <span class="iconify" data-icon="akar-icons:instagram-fill" style="color: #ac7088;"></span>
+                        Instagram</a>
+                </li>
+                <li class="mx-2">
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <span class="iconify" data-icon="akar-icons:facebook-fill" style="color: #ac7088;"></span>
+                        Facebook</a>
+                </li>
+                <li class="mx-2">
+                    <a target="_blank" href="https://mail.google.com/">
+                        <span class="iconify" data-icon="bxl:gmail" style="color: #ac7088;"></span>
+                        Email</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="mx-2">
+                    <a href="../aprende.html">Aprende</a>
+                </li>
+                <li class="mx-2">
+                    <a href="../mascotas.html">Mascotas</a>
+                </li>
+                <li class="mx-2">
+                    <a href="../refugios.html">Refugios</a>
+                </li>
+                <li class="mx-2">
+                    <a href="../contactanos.html">Contactanos</a>
+                </li>
+            </ul>
+            <p class="copyright">Copyright © 2022 - Desarrollado por <a
+                    href="https://github.com/CarlosFerOrduna/Patitas" target="_blank">Carlos</a>
+            </p>
+        </div>
+    </footer>
+    <!--end footer-->
+</div>
 <script src="../../js/bootstrap.bundle.min.js"></script>
+<script src="https://code.iconify.design/3/3.0.0/iconify.min.js"></script>
 </body>
 </html>

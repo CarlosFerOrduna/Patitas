@@ -2,16 +2,16 @@
 @import "mixins";
 
 .navbar_button {
+  margin: 3rem;
   @include background-color(map-get($colors, rosita));
   border-radius: map-get($bordes-redondos, grande);
 
   div {
-    div {
-      ul {
-        li {
-          &:hover {
-            @include navbar-hover();
-          }
+    ul {
+      li {
+        width: 100%;
+        &:hover {
+          @include navbar-hover();
         }
       }
     }

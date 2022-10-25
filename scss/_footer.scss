@@ -1,6 +1,8 @@
 @import "variable";
 
 .footer {
+  justify-content: space-between;
+
   ul {
     li {
       display: inline-block;
@@ -14,6 +16,20 @@
           align-items: center;
         }
       }
+
+      &:hover {
+        transform: rotate(-360deg);
+        transition: 0.5s ease;
+      }
+    }
+  }
+
+  .copyright {
+    color: map-get($colors, rosita);
+
+    a {
+      text-decoration: $decoration-none;
+      color: map-get($colors, rosita);
     }
   }
 }
