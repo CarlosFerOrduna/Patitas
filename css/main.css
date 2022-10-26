@@ -145,6 +145,58 @@ body {
   font-size: 1.5rem;
   padding: 1em; }
 
+.mensaje_el_campito {
+  background-image: url("../assets/refugio_el_campito/logo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 15em;
+  align-items: center;
+  text-align: start;
+  color: #472D2D;
+  text-shadow: 0.5px 0.5px 5px #472D2D;
+  font-size: 1.5rem;
+  padding: 1em; }
+
+.mensaje_las_renatas {
+  background-image: url("../assets/refugio_las_renatas/logo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 15em;
+  align-items: center;
+  text-align: start;
+  color: #472D2D;
+  text-shadow: 0.5px 0.5px 5px #472D2D;
+  font-size: 1.5rem;
+  padding: 1em; }
+
+.mensaje_una_patita_amiga {
+  background-image: url("../assets/una_patita_amiga/logo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 15em;
+  align-items: center;
+  text-align: start;
+  color: #472D2D;
+  text-shadow: 0.5px 0.5px 5px #472D2D;
+  font-size: 1.5rem;
+  padding: 1em; }
+
+.mensaje_venado_tuerto {
+  background-image: url("../assets/refugio_canino_venado/logo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 15em;
+  align-items: center;
+  text-align: start;
+  color: #472D2D;
+  text-shadow: 0.5px 0.5px 5px #472D2D;
+  font-size: 1.5rem;
+  padding: 1em; }
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
