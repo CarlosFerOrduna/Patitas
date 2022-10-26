@@ -120,7 +120,7 @@ body {
       transition: 0.12s; }
 
 .mensaje {
-  background-image: url("../assets/perro-calle2.jpg");
+  background-image: url("../assets/perro-calle.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

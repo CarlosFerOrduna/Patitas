@@ -2,7 +2,7 @@
 @import "mixins";
 
 .mensaje {
-  @include mensaje('../assets/perro-calle2.jpg', 20em);
+  @include mensaje('../assets/perro-calle.jpg', 20em);
 }
 
 .mensaje_contacto {
