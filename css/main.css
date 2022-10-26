@@ -24,12 +24,12 @@ body {
     margin: 4rem;
     font-size: 2rem;
     color: #F5E8C7;
-    text-shadow: 0.5px 0.5px 5px #472D2D; }
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); }
   .header_index .header-text {
     margin: 4rem;
     font-size: 1.6rem;
     color: #F5E8C7;
-    text-shadow: 0.5px 0.5px 5px #472D2D; }
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); }
 
 .header_aprende {
   height: 600px;
@@ -43,12 +43,12 @@ body {
     margin: 4rem;
     font-size: 2rem;
     color: #F5E8C7;
-    text-shadow: 0.5px 0.5px 5px #472D2D; }
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); }
   .header_aprende .header-text {
     margin: 4rem;
     font-size: 1.6rem;
     color: #F5E8C7;
-    text-shadow: 0.5px 0.5px 5px #472D2D; }
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); }
 
 .header_contacto {
   height: 600px;
@@ -62,12 +62,12 @@ body {
     margin: 4rem;
     font-size: 2rem;
     color: #F5E8C7;
-    text-shadow: 0.5px 0.5px 5px #472D2D; }
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); }
   .header_contacto .header-text {
     margin: 4rem;
     font-size: 1.6rem;
     color: #F5E8C7;
-    text-shadow: 0.5px 0.5px 5px #472D2D; }
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); }
 
 .header_refugio {
   height: 600px;
@@ -81,12 +81,12 @@ body {
     margin: 4rem;
     font-size: 2rem;
     color: #F5E8C7;
-    text-shadow: 0.5px 0.5px 5px #472D2D; }
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); }
   .header_refugio .header-text {
     margin: 4rem;
     font-size: 1.6rem;
     color: #F5E8C7;
-    text-shadow: 0.5px 0.5px 5px #472D2D; }
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); }
 
 .header_mascota {
   height: 600px;
@@ -100,12 +100,12 @@ body {
     margin: 4rem;
     font-size: 2rem;
     color: #F5E8C7;
-    text-shadow: 0.5px 0.5px 5px #472D2D; }
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); }
   .header_mascota .header-text {
     margin: 4rem;
     font-size: 1.6rem;
     color: #F5E8C7;
-    text-shadow: 0.5px 0.5px 5px #472D2D; }
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); }
 
 .navbar_button {
   margin: 3rem;
@@ -128,7 +128,7 @@ body {
   align-items: center;
   text-align: start;
   color: #F5E8C7;
-  text-shadow: 0.5px 0.5px 5px #472D2D;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
   font-size: 1.5rem;
   padding: 1em; }
 
@@ -141,7 +141,7 @@ body {
   align-items: center;
   text-align: start;
   color: #F5E8C7;
-  text-shadow: 0.5px 0.5px 5px #472D2D;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
   font-size: 1.5rem;
   padding: 1em; }
 
@@ -154,7 +154,7 @@ body {
   align-items: center;
   text-align: start;
   color: #F5E8C7;
-  text-shadow: 0.5px 0.5px 5px #472D2D;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
   font-size: 1.5rem;
   padding: 1em; }
 
@@ -167,7 +167,7 @@ body {
   align-items: center;
   text-align: start;
   color: #472D2D;
-  text-shadow: 0.5px 0.5px 5px #472D2D;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
   font-size: 1.5rem;
   padding: 1em; }
 
@@ -180,7 +180,7 @@ body {
   align-items: center;
   text-align: start;
   color: #472D2D;
-  text-shadow: 0.5px 0.5px 5px #472D2D;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
   font-size: 1.5rem;
   padding: 1em; }
 
@@ -193,7 +193,7 @@ body {
   align-items: center;
   text-align: start;
   color: #472D2D;
-  text-shadow: 0.5px 0.5px 5px #472D2D;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
   font-size: 1.5rem;
   padding: 1em; }
 
@@ -206,7 +206,7 @@ body {
   align-items: center;
   text-align: start;
   color: #472D2D;
-  text-shadow: 0.5px 0.5px 5px #472D2D;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
   font-size: 1.5rem;
   padding: 1em; }
 
