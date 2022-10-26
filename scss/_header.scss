@@ -38,7 +38,7 @@
 }
 
 .header_refugio {
-  @include header('../assets/perro-casa.jpg');
+  @include header('../assets/perro-refugio.jpg');
 
   .header-title {
     @include header-text(map-get($colors, cremita), 2rem);

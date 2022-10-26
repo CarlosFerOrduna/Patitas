@@ -1,0 +1,7 @@
+@import "variable";
+@import "mixins";
+
+.cuatroCeroCuatro {
+  width: 100%;
+  border-radius: map-get($bordes-redondos, grande);
+}

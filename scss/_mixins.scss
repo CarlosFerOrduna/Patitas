@@ -79,3 +79,17 @@
   color: $color;
   text-shadow: 0.5px 0.5px 5px #472D2D;
 }
+
+@mixin mensaje($background-imagen, $height, $font-size: 1.5rem) {
+  background-image: url($background-imagen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: $height;
+  align-items: center;
+  text-align: start;
+  color: map-get($colors, cremita);
+  text-shadow: 0.5px 0.5px 5px #472D2D;
+  font-size: 1.5rem;
+  padding: 1em;
+}

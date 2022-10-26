@@ -1,0 +1,10 @@
+@import "variable";
+@import "mixins";
+
+.mensaje {
+  @include mensaje('../assets/perro-calle.jpg', 20em);
+}
+
+.mensaje_contacto {
+  @include mensaje('../assets/baires.jpg', 30em);
+}
