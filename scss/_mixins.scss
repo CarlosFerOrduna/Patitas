@@ -80,7 +80,7 @@
   text-shadow: 0.5px 0.5px 5px #472D2D;
 }
 
-@mixin mensaje($background-imagen, $height, $font-size: 1.5rem) {
+@mixin mensaje($background-imagen, $height, $color: map-get($colors, cremita),$font-size: 1.5rem) {
   background-image: url($background-imagen);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -88,7 +88,7 @@
   height: $height;
   align-items: center;
   text-align: start;
-  color: map-get($colors, cremita);
+  color: $color;
   text-shadow: 0.5px 0.5px 5px #472D2D;
   font-size: 1.5rem;
   padding: 1em;
