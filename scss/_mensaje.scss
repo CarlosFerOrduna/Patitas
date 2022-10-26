@@ -14,17 +14,17 @@
 }
 
 .mensaje_el_campito {
-  @include mensaje('../assets/refugio_el_campito/logo.jpg', 15em, map-get($colors, marron));
+  @include mensaje('../assets/refugio_el_campito/logo.jpg', 15em);
 }
 
 .mensaje_las_renatas {
-  @include mensaje('../assets/refugio_las_renatas/logo.jpg', 15em, map-get($colors, marron));
+  @include mensaje('../assets/refugio_las_renatas/logo.jpg', 15em);
 }
 
 .mensaje_una_patita_amiga {
-  @include mensaje('../assets/una_patita_amiga/logo.jpg', 15em, map-get($colors, marron));
+  @include mensaje('../assets/una_patita_amiga/logo.jpg', 15em);
 }
 
 .mensaje_venado_tuerto {
-  @include mensaje('../assets/refugio_canino_venado/logo.jpg', 15em, map-get($colors, marron));
+  @include mensaje('../assets/refugio_canino_venado/logo.jpg', 15em);
 }

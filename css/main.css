@@ -17,7 +17,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("../assets/perro-paseando.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.8) 100%), url("../assets/perro-paseando.jpg");
   background-size: cover;
   background-position: center; }
   .header_index .header-title {
@@ -36,7 +36,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("../assets/perro-aprende.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.8) 100%), url("../assets/perro-aprende.jpg");
   background-size: cover;
   background-position: center; }
   .header_aprende .header-title {
@@ -55,7 +55,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("../assets/perro-rescata.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.8) 100%), url("../assets/perro-rescata.jpg");
   background-size: cover;
   background-position: center; }
   .header_contacto .header-title {
@@ -74,7 +74,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("../assets/perro-refugio.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.8) 100%), url("../assets/perro-refugio.jpg");
   background-size: cover;
   background-position: center; }
   .header_refugio .header-title {
@@ -93,7 +93,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("../assets/perro-grupo.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.8) 100%), url("../assets/perro-grupo.jpg");
   background-size: cover;
   background-position: center; }
   .header_mascota .header-title {
@@ -120,7 +120,7 @@ body {
       transition: 0.12s; }
 
 .mensaje {
-  background-image: url("../assets/perro-calle.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 100%), url("../assets/perro-calle.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -133,7 +133,7 @@ body {
   padding: 1em; }
 
 .mensaje_contacto {
-  background-image: url("../assets/baires.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 100%), url("../assets/baires.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -146,7 +146,7 @@ body {
   padding: 1em; }
 
 .mensaje_refugio {
-  background-image: url("../assets/perro-campo.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 100%), url("../assets/perro-campo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -159,53 +159,53 @@ body {
   padding: 1em; }
 
 .mensaje_el_campito {
-  background-image: url("../assets/refugio_el_campito/logo.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 100%), url("../assets/refugio_el_campito/logo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 15em;
   align-items: center;
   text-align: start;
-  color: #472D2D;
+  color: #F5E8C7;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
   font-size: 1.5rem;
   padding: 1em; }
 
 .mensaje_las_renatas {
-  background-image: url("../assets/refugio_las_renatas/logo.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 100%), url("../assets/refugio_las_renatas/logo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 15em;
   align-items: center;
   text-align: start;
-  color: #472D2D;
+  color: #F5E8C7;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
   font-size: 1.5rem;
   padding: 1em; }
 
 .mensaje_una_patita_amiga {
-  background-image: url("../assets/una_patita_amiga/logo.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 100%), url("../assets/una_patita_amiga/logo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 15em;
   align-items: center;
   text-align: start;
-  color: #472D2D;
+  color: #F5E8C7;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
   font-size: 1.5rem;
   padding: 1em; }
 
 .mensaje_venado_tuerto {
-  background-image: url("../assets/refugio_canino_venado/logo.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 100%), url("../assets/refugio_canino_venado/logo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 15em;
   align-items: center;
   text-align: start;
-  color: #472D2D;
+  color: #F5E8C7;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
   font-size: 1.5rem;
   padding: 1em; }
