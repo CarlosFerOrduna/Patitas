@@ -2,11 +2,15 @@
 @import "mixins";
 
 .mensaje {
-  @include mensaje('../assets/perro-calle.jpg', 20em);
+  @include mensaje('../assets/perro-calle2.jpg', 20em);
 }
 
 .mensaje_contacto {
   @include mensaje('../assets/baires.jpg', 30em);
+}
+
+.mensaje_refugio {
+  @include mensaje('../assets/perro-campo.jpg', 20em);
 }
 
 .mensaje_el_campito {

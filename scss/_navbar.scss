@@ -10,8 +10,13 @@
     ul {
       li {
         width: 100%;
+
         &:hover {
           @include navbar-hover();
+        }
+
+        @media screen {
+
         }
       }
     }

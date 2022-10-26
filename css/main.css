@@ -120,7 +120,7 @@ body {
       transition: 0.12s; }
 
 .mensaje {
-  background-image: url("../assets/perro-calle.jpg");
+  background-image: url("../assets/perro-calle2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -138,6 +138,19 @@ body {
   background-attachment: fixed;
   background-size: cover;
   height: 30em;
+  align-items: center;
+  text-align: start;
+  color: #F5E8C7;
+  text-shadow: 0.5px 0.5px 5px #472D2D;
+  font-size: 1.5rem;
+  padding: 1em; }
+
+.mensaje_refugio {
+  background-image: url("../assets/perro-campo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
   align-items: center;
   text-align: start;
   color: #F5E8C7;
