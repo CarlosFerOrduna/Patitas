@@ -1,7 +1,21 @@
 @import "variable";
-@import "mixins";
 
 .cuatroCeroCuatro {
-  width: 100%;
-  border-radius: map-get($bordes-redondos, grande);
+  padding: 2em;
+  color: map-get($colors, rosita);
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 3rem;
+  }
+
+  img {
+    width: 100%;
+    border-radius: map-get($bordes-redondos, grande);
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -272,24 +272,32 @@ body {
     transition: 0.6s; }
 
 .cuatroCeroCuatro {
-  width: 100%;
-  border-radius: 10px; }
+  padding: 2em;
+  color: #AC7088; }
+  .cuatroCeroCuatro h2 {
+    font-size: 4rem; }
+  .cuatroCeroCuatro p {
+    font-size: 3rem; }
+  .cuatroCeroCuatro img {
+    width: 100%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center; }
 
-.footer {
-  justify-content: space-between; }
-  .footer ul li {
-    display: inline-block;
-    list-style-type: none; }
-    .footer ul li a {
-      text-decoration: none;
-      color: #AC7088; }
-      .footer ul li a .iconify {
-        align-items: center; }
-    .footer ul li:hover {
-      transform: rotate(-360deg);
-      transition: 0.5s ease; }
-  .footer .copyright {
+.footer ul li {
+  display: inline-block;
+  list-style-type: none; }
+  .footer ul li a {
+    text-decoration: none;
     color: #AC7088; }
-    .footer .copyright a {
-      text-decoration: none;
-      color: #AC7088; }
+    .footer ul li a .iconify {
+      align-items: center; }
+  .footer ul li:hover {
+    transform: rotate(-360deg);
+    transition: 0.5s ease-out; }
+
+.footer .copyright {
+  color: #AC7088; }
+  .footer .copyright a {
+    text-decoration: none;
+    color: #AC7088; }
